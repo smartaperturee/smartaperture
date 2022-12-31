@@ -1,0 +1,44 @@
+.container{
+    bottom: 0;
+    
+}
+
+.card-body p{
+    color: black;
+}
+.navbar{
+    background-color: #1c1c1c;
+    
+}
+.navbar-brand{
+    background: linear-gradient(-45deg, #338AFF, #3CF0C5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+.buton{
+    font-weight: 700;
+    font-size: 17px;
+    color: #f2e6e6;
+}
+.btn{
+    width:150px;
+    padding: 0;
+}
+
+.mainpost{
+    background-color: #000000;
+    min-height: 98vh;
+}
+
+.post{
+    display: flex;
+    justify-content: center;
+}
+
+.card-title{
+    color: black;
+}
+

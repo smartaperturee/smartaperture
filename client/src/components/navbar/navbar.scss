@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 10px;
+    align-items: center;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    padding: 9px;
+    margin-left:5px ;
+    margin-right: 25px;
+}
+li span{
+    color : rgb(187, 232, 250);
+}
+button{
+    width :220px;
+    height :70px;
+    font-size:19px;
+    text-align: center;
+    line-height: 70px;
+    color :rgba(255,255,255,0.9);
+    border-radius: 40px;
+    background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+    background-size :400%;
+    animation: anime 16s linear infinite;
+    
+}
+.logo{
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+.logo img{
+    width: 170px;
+    height: 70px;
+}
+
+@keyframes anime {
+    0%{background-position: 0% 50%}
+     
+   50%{background-position: 100% 50%}
+     
+   100%{background-position: 0% 50%}
+     
+}
+   

@@ -1,0 +1,61 @@
+.banner1 .about{
+    font-size: 3.3rem;
+    font-weight: 600;
+    margin: 20px;
+    background: linear-gradient(-45deg, #338AFF, #3CF0C5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+.banner1{
+  margin-top: 20px;
+  
+}
+.banner1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner1 p {
+    color: #B8B8B8;
+    font-size: 22px;
+    letter-spacing: 1.0px;
+    line-height: 1.9em;
+    width: 96%;
+    margin-top: 60px;
+  }
+  .aligh-items-center1 span{
+    font-size: 1.3rem;
+    font-weight: 600;
+    background: linear-gradient(-45deg, #338AFF, #3CF0C5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 0.9px;
+    line-height: 1.9em;
+  }
+  .banner1 img {
+    
+    width: 350px;
+    height: 580px;
+  }
+  .contact{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.9em;
+    margin: 0;
+  }
+  .email{
+    display: flex;
+    gap:15px;
+    align-items: center;
+    color: #3CF0C5;
+  }
+  .phone{
+    display: flex;
+    gap:15px;
+    align-items: center;
+    color: #3CF0C5;
+  }
